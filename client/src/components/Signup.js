@@ -55,8 +55,8 @@ class Signup extends Component {
             sessionStorage.setItem("__id", response.data.aData.__id);
             sessionStorage.setItem("__email", response.data.aData.__email);
             sessionStorage.setItem("__name", response.data.aData.__name);
-            sessionStorage.setItem("____departmentId", response.data.aData.____departmentId);
-            sessionStorage.setItem("____departmentName", response.data.aData.____departmentName);
+            sessionStorage.setItem("__departmentId", response.data.aData.__departmentId);
+            sessionStorage.setItem("__departmentName", response.data.aData.__departmentName);
   					window.location.replace("./../" + response.data.aData.__departmentName);
   				}
   			})

@@ -24,7 +24,7 @@
 }
 .form{
 	margin: auto;
-	margin-top: 3em;
+	margin-top: 1em;
 	width: fit-content;
 	box-shadow: 0 1px 2px 0 rgba(34,36,38,.15);
 	padding: 1em;
@@ -50,7 +50,7 @@
     transition: color .1s ease,border-color .1s ease;
 }
 .form .field{
-	margin-bottom: 1em;
+	margin-bottom: 0.8em;
 }
 .form .submit-button{
 	box-shadow: 0 0 0 0 rgba(34,36,38,.15) inset;
