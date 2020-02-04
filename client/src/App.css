@@ -1,0 +1,122 @@
+.nav-bar{
+	padding: 12px;
+	background: #4021c4;
+}
+.nav-bar .nav-bg{
+	display: flex;
+	font-size: 22px;
+	color: #FFF;
+	margin: 0px;
+}
+.nav-bar .nav-bg li{
+	list-style: none;
+	padding: 0px 8px;
+}
+.nav-bar .nav-bg li a{
+	color: #FFF;
+}
+.nav-bar .nav-bg li img{
+	width: 100px;
+}
+.nav-bar .nav-bg .nav-text{
+	margin-top: auto;
+	margin-bottom: auto;
+}
+.form{
+	margin: auto;
+	margin-top: 3em;
+	width: fit-content;
+	box-shadow: 0 1px 2px 0 rgba(34,36,38,.15);
+	padding: 1em;
+    border-radius: .28571429rem;
+    border: 1px solid rgba(34,36,38,.15);
+}
+.form label{
+	display: block;
+	margin: 0 0 .28571429rem 0;
+    color: rgba(0,0,0,.87);
+    font-size: .92857143em;
+    font-weight: 700;
+}
+.form input{
+	width: 22em;
+	padding: .67857143em 1em;
+    font-size: 1em;
+    background: #fff;
+    border: 1px solid rgba(34,36,38,.15);
+    color: rgba(0,0,0,.87);
+    border-radius: .28571429rem;
+    box-shadow: 0 0 0 0 transparent inset;
+    transition: color .1s ease,border-color .1s ease;
+}
+.form .field{
+	margin-bottom: 1em;
+}
+.form .submit-button{
+	box-shadow: 0 0 0 0 rgba(34,36,38,.15) inset;
+	background-color: #4021c4;
+    color: #fff;
+    text-shadow: none;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    padding: .58571429em 1.3em .58571429em;
+    font-weight: 700;
+    border-radius: .28571429rem;
+    margin-right: 8px;
+}
+.form a{
+	color: #4183c4;
+	font-size: 1rem;
+    text-decoration: none;
+}
+.form .error-message{
+	background: antiquewhite;
+    padding: 1em;
+    margin-top: 8px;
+    color: brown;
+    border-radius: 8px;
+}
+.form select{
+	height: 38px;
+    padding: .5em;
+    border: 1px solid rgba(34,36,38,.15);
+    background: #fff;
+    border-radius: .28571429rem;
+    box-shadow: 0 0 0 0 transparent inset;
+    cursor: pointer;
+    width: 100%;
+}
+.story-card{
+    width: 50%;
+    margin: auto;
+    margin-top: 1em;
+    background: whitesmoke;
+    padding: 1.5em;
+    box-shadow: -1px 2px 4px 1px rgba(181,170,181,0.7);
+    border-radius: 4px;
+}
+.story-card div{
+    padding: 4px 0px;
+    color: dimgray;
+}
+.story-card div span{
+    font-weight: 700;
+    font-size: 14px;
+    color: darkslategray;
+}
+.story-card .action-btn{
+    border: none;
+    color: #FFF;
+    padding: 10px 22px;
+    margin-right: 10px;
+    border-radius: 26px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.story-card .action-btn.positive{
+    background: green;
+}
+.story-card .action-btn.negative{
+    background: red;
+}

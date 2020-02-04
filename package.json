@@ -1,0 +1,38 @@
+{
+  "name": "archimydes",
+  "version": "1.0.0",
+  "description": "Application based on ReactJS Frontend and NodeJS Backend",
+  "author": {
+    "name": "Saurabh Kumar"
+  },
+  "license": "MIT",
+  "scripts": {
+    "client": "cd client && yarn start",
+    "server": "nodemon server.js",
+    "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\"",
+    "dev:server": "cd client && yarn build && cd .. && yarn start",
+    "start": "node server.js",
+    "heroku-postbuild": "cd client && npm install && npm install --only=dev --no-shrinkwrap && npm run build"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-session": "^1.16.2",
+    "mongoose": "^5.6.0",
+    "password-hash": "^1.2.2"
+  },
+  "devDependencies": {
+    "concurrently": "^4.1.0",
+    "nodemon": "^2.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sksaurabh2495/archimydes.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "create-react-app"
+  ]
+}
